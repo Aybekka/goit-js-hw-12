@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görsel Arama - Sayfalandırma</title>
+    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-BDPjZNE_.js">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DumFYO8Z.css">
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-CeJts1we.css">
+  </head>
+  <body>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search image..."
+      />
+      <button type="submit">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+
+    <div class="loader-container">
+      <span class="loader hidden"></span>
+    </div>
+
+    <button type="button" class="load-more hidden">Load more</button>
+
+  </body>
+</html>
